@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#main">Artykuły</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main id="main">
+        <h1>Blog</h1>
+        <article>
+            <img src="images\art0.jpg">
+            <h1>Artykuł 0</h1>
+            <p>Lorem ipsum dolor sit amet sagittis ultricies. Nullam viverra nunc.
+                Etiam risus libero, facilisis est turpis egestas. Mauris in lacus
+                nec scelerisque eu, bibendum metus in turpis luctus ullamcorper ac,
+                eleifend justo luctus et ultrices posuere suscipit rutrum.
+            </p>
+            <a href="articles\article0.html">Czytaj więcej...</a>
+        </article>
+        <article>
+            <img src="images\art1.jpg">
+            <h1>Artykuł 1</h1>
+            <p>Nullam fermentum. Vivamus nec egestas volutpat. Nam tempor risus. Etiam eu tortor.
+                Maecenas quam sem, lobortis elit. Quisque iaculis, purus at nulla ipsum
+                primis in faucibus condimentum nulla. Maecenas eget nulla. Maecenas
+                eu sem nunc, luctus quam eu odio. Suspendisse rutrum rhoncus. Morbi
+                et magnis dis parturient montes, nascetur ridiculus mus. Etiam wisi
+                accumsan vitae, tempus malesuada. Etiam commodo tempus, fringilla aliquet.
+                Praesent magna auctor dignissim.
+            </p>
+            <a href="articles\article1.html">Czytaj więcej...</a>
+        </article>
+        <article>
+            <img src="images\art2.jpg">
+            <h1>Artykuł 2</h1>
+            <p>Phasellus mollis. Nunc tempor enim
+                eget tempus at, suscipit lectus. Phasellus ornare dolor id nibh.
+                Fusce convallis diam elementum quis, commodo vehicula, feugiat
+                velit. Suspendisse est congue ac, pede. Nulla facilisis dignissim nibh.
+                Fusce aliquam tellus tortor, fermentum risus. Sed pulvinar risus.
+                Morbi ultrices magna. Curabitur urna mattis feugiat sit amet interdum
+                viverra. Cras elementum. Morbi pede. Sed quam interdum arcu nec magna.
+                Vestibulum massa in.
+            </p>
+            <a href="articles\article2.html">Czytaj więcej...</a>
+        </article>
+    </main>
+
+    <footer id="footer">
+        <h2>Kontakt</h2>
+        <section id="contact">
+            <form id="contactForm">
+                <label for="theme">Temat:</label>
+                <input type="text" id="theme">
+                <br>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail">
+                <br>
+                <label for="comment">Treść:</label>
+                <textarea id="comment" name="comment" form="contactForm" cols="50" rows="10" ></textarea>
+                <br>
+                <input type="submit">
+            </form>
+
+        </section>
+    </footer>
 </body>
+
 </html>
