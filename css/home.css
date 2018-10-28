@@ -1,0 +1,30 @@
+.container {
+    z-index: 2;
+    background: url("../img/home/bg.png") no-repeat top;
+    background-size: cover;
+}
+
+.circle {
+    z-index: 1;
+    background-color: #1B509F;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left: 0;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: calc(11vw + 11vh - 31px);
+    left: calc(-1px);
+    align-content: center;
+    padding: 0%;
+    margin: 0;
+}
+
+.circle > img {
+    z-index: 3;
+    position: relative;
+    top: 20%;
+    left: -50%;
+    height: 60%;
+    width: 60%;
+}
