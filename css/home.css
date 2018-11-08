@@ -7,13 +7,13 @@
 .circle {
     z-index: 1;
     background-color: #1B509F;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-top-right-radius: 2.2vw;
+    border-bottom-right-radius: 2.2vw;
     border-left: 0;
-    width: 40px;
-    height: 80px;
+    width: 2.2vw;
+    height: 4.4vw;
     position: absolute;
-    top: calc(11vw + 11vh - 31px);
+    top: calc(9.8vw + 11vh - 7px);
     left: calc(-1px);
     align-content: center;
     padding: 0%;
@@ -23,8 +23,70 @@
 .circle > img {
     z-index: 3;
     position: relative;
-    top: 20%;
+    top: 12.5%;
     left: -50%;
-    height: 60%;
-    width: 60%;
+    height: 75%;
+    width: 75%;
+}
+
+.poly {
+    display: inline-block;
+    background-color: #ffffff;
+    -webkit-clip-path: polygon(0 13%, 100% 0, 85.2% 100%, 77.5% 92%, 16.2% 81%);
+    clip-path: polygon(0 13%, 100% 0, 85.2% 100%, 77.5% 92%, 16.2% 81%);
+    width: 34.2vw;
+    height: 42.1vh;
+    transform: translate(16.8vw, 10.5vh);
+}
+
+.greyBox {
+    display: block;
+    background-color: #272125;
+    width: 28.2vw;
+    height: 9vh;
+    transform: translate(17.5vw, -28.5vh);    
+}
+
+.greyBox > p {
+    display: block;
+    text-transform: uppercase;
+    color: #EE2F6E;
+    font-family: BebasNeueBold;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;    
+    word-spacing: 1.4vw;
+    margin: 0;
+    transform: translate(0, -1.5vh);
+}
+
+.greyBox > p > span {
+    color: #e0e0e0;
+}
+
+.inBoxU {
+    display: block;
+    text-transform: uppercase;
+    color: #272125;
+    font-family: BebasNeueBold;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    text-align: center;
+    margin: 0;
+    transform: translate(-15vw, -29vh);
+}
+
+.inBoxB {
+    display: block;
+    text-transform: uppercase;
+    color: #272125;
+    font-family: BebasNeueBold;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 82px;
+    text-align: center;
+    margin: 0;
+    transform: translate(-15vw, -28vh);
 }

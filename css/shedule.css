@@ -6,13 +6,13 @@
 .circle {
     z-index: 1;
     background-color: #E3DAD3;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-top-right-radius: 2.2vw;
+    border-bottom-right-radius: 2.2vw;
     border-left: 0;
-    width: 40px;
-    height: 80px;
+    width: 2.2vw;
+    height: 4.4vw;
     position: absolute;
-    top: calc(11vw + 17vh - 17px);
+    top: calc(9.8vw + 17vh + 7px);
     left: calc(-1px);
     align-content: center;
     padding: 0%;
@@ -22,8 +22,8 @@
 .circle > img {
     z-index: 3;
     position: relative;
-    top: 20%;
+    top: 12.5%;
     left: -50%;
-    height: 60%;
-    width: 60%;
+    height: 75%;
+    width: 75%;
 }
